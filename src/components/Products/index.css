@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+
+.products-img {
+  height: 200px;
+  width: 200px;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .products-container {
+    margin-top: 10%;
+  }
+  .products-img {
+    width: 300px;
+    height: 300px;
+  }
+}
